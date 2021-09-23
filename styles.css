@@ -37,7 +37,7 @@ section::after{
 }
 .container{
     position: relative;
-    width: 400px;
+    width: 380px;
     min-height: 400px;
     background: rgba(255,255,255,0.1);
     border-radius: 10px;
@@ -78,4 +78,33 @@ section::after{
 .dycalender-month-container .dycalender-today-date, .dycalender-month-container .dycalender-target-date{
     background: white;
     color: #111 !important;
+}
+.dycalender-month-container .dycalender-header .dycalender-prev-next-btn.prev-btn{
+    background: white;
+    color: #111;
+    width: 44px;
+    height: 38px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    left: 4px;
+}
+.dycalender-month-container .dycalender-header .dycalender-prev-next-btn.next-btn{
+    background: white;
+    color: #111;
+    width: 44px;
+    height: 38px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    right: 4px;
+}
+.dycalender-month-container .dycalender-span-month-year{
+    color: white;
+    font-size: 1.5em;
+    font-weight: 500;
 }
