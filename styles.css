@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    user-select: none;
 }
 section{
     position: relative;
@@ -17,7 +18,7 @@ section::before{
     content: "";
     position: absolute;
     width: 400px;
-    height: 400px;
+    height: 420px;
     background: linear-gradient(#ffc107,#e91e63);
     border-radius: 50%;
     transform: translate(-250px,-120px);
@@ -75,11 +76,11 @@ section::after{
     background: white;
     color: #111 !important;
 }
-.dycalender-month-container .dycalender-today-date, .dycalender-month-container .dycalender-target-date{
+.dycalendar-month-container .dycalendar-today-date, .dycalendar-month-container .dycalendar-target-date{
     background: white;
     color: #111 !important;
 }
-.dycalender-month-container .dycalender-header .dycalender-prev-next-btn.prev-btn{
+.dycalendar-month-container .dycalendar-header .dycalendar-prev-next-btn.prev-btn{
     background: white;
     color: #111;
     width: 44px;
@@ -91,7 +92,7 @@ section::after{
     font-size: 24px;
     left: 4px;
 }
-.dycalender-month-container .dycalender-header .dycalender-prev-next-btn.next-btn{
+.dycalendar-month-container .dycalendar-header .dycalendar-prev-next-btn.next-btn{
     background: white;
     color: #111;
     width: 44px;
@@ -103,7 +104,7 @@ section::after{
     font-size: 24px;
     right: 4px;
 }
-.dycalender-month-container .dycalender-span-month-year{
+.dycalendar-month-container .dycalendar-span-month-year{
     color: white;
     font-size: 1.5em;
     font-weight: 500;
